@@ -53,7 +53,7 @@ class TestDeathReport(TestCase):
                     diagnosis_code=DiagnosisCode.objects.all().first(),
                     medical_responsibility=MedicalResponsibility.objects.all().first(),
                     illness_duration=1)
-            except:
+            except Exception:
                 pass
             else:
                 raise Exception(cm.exception)
