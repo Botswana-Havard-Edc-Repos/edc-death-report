@@ -14,7 +14,6 @@ jobs:
       max-parallel: 4
       matrix:
         python-version: [3.7,3.8, 3.9]
-        apt-packages: [libcups2-dev]
 
     steps:
     - uses: actions/checkout@v3
@@ -22,10 +21,8 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install Flake 8
+    - name: Install Flake 8 and Requirements
       run: |
-        sudo apt-get update
-        sudo apt-get install -y ${{ matrix.apt-packages }}
         python -m pip install --upgrade pip
         pip install flake8
         pip install -r requirements.txt
