@@ -1,4 +1,4 @@
-Django==1.6
+Django==1.8
 django-tastypie==0.12.2
 django_extensions
 python-dateutil
