@@ -28,6 +28,7 @@ jobs:
         sudo apt-get install -y ${{ matrix.apt-packages }}
         python -m pip install --upgrade pip
         pip install flake8
+        pip install -r requirements.txt
         
         
     - name: Run Flake8 and Tests
