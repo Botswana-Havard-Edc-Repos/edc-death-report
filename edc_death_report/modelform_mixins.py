@@ -24,7 +24,8 @@ class DeathReportFormMixin:
         cleaned_data = self.cleaned_data
         if 'other' in cleaned_data.get('cause').name.lower() and not cleaned_data.get('cause_other'):
             raise forms.ValidationError('You wrote \'other\' for the cause of death. Please specify.')
-        if ('other' in cleaned_data.get('cause_category').name.lower() and not cleaned_data.get('cause_category_other')):
+        if ('other' in cleaned_data.get('cause_category').name.lower() 
+            and not cleaned_data.get('cause_category_other')):
             raise forms.ValidationError(
                 'You wrote \'other\' for the cause of death category. Please specify.')
         return cleaned_data
