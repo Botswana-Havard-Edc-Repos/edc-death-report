@@ -38,4 +38,4 @@ git+https://github.com/botswana-harvard/edc-visit-schedule@develop#egg=edc-visit
 git+https://github.com/botswana-harvard/edc-visit-tracking@develop#egg=edc-visit-tracking
 git+https://github.com/botswana-harvard/lab-requisition@develop#egg=lab-requisition
 git+https://github.com/botswana-harvard/lis@develop#egg=lis
-git+https://github.com/erikvw/django-revision@develop#egg=django-revision
+git+https://github.com/botswana-harvard/django-revision.git@413b56162a0e73689d94c452b34b859add4e5a08
