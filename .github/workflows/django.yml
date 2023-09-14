@@ -35,3 +35,4 @@ jobs:
     - name: Run Flake8 and Tests
       run: |
         flake8 edc_death_report
+        python manage.py test
