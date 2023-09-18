@@ -36,3 +36,4 @@ jobs:
       run: |
         flake8 edc_death_report
         python manage.py test
+        python manage.py check
