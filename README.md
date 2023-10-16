@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/botswana-harvard/edc-death-report.svg)](https://travis-ci.org/botswana-harvard/edc-death-report)
 [![Coverage Status](https://coveralls.io/repos/botswana-harvard/edc-death-report/badge.svg?branch=develop&service=github)](https://coveralls.io/github/botswana-harvard/edc-death-report?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/Botswana-Havard-Edc-Repos/edc-death-report/badge.svg?branch=develop)](https://coveralls.io/github/Botswana-Havard-Edc-Repos/edc-death-report?branch=develop)
 
 # edc-death-report
 
